@@ -1,0 +1,71 @@
+<TWData>
+  <Source>Guntram's Tabletweaving Thingy</Source>
+  <Version>1.12</Version>
+  <Pattern Type="Threaded">
+    <Name><![CDATA[Simple Threaded #9]]></Name>
+    <Notes>
+    </Notes>
+    <Cards Count="2">
+      <Card Holes="4" Number="1">
+        <Holes Count="4">
+          <Colour>1</Colour>
+          <Colour>2</Colour>
+          <Colour>2</Colour>
+          <Colour>2</Colour>
+        </Holes>
+        <Threading>Z</Threading>
+        <CurThread>Z</CurThread>
+        <CurPos>2</CurPos>
+        <CurHoles Count="4">
+          <Colour>1</Colour>
+          <Colour>2</Colour>
+          <Colour>2</Colour>
+          <Colour>2</Colour>
+        </CurHoles>
+      </Card>
+      <Card Holes="4" Number="2">
+        <Holes Count="4">
+          <Colour>2</Colour>
+          <Colour>1</Colour>
+          <Colour>2</Colour>
+          <Colour>2</Colour>
+        </Holes>
+        <Threading>S</Threading>
+        <CurThread>S</CurThread>
+        <CurPos>0</CurPos>
+        <CurHoles Count="4">
+          <Colour>2</Colour>
+          <Colour>1</Colour>
+          <Colour>2</Colour>
+          <Colour>2</Colour>
+        </CurHoles>
+      </Card>
+    </Cards>
+    <Packs Count="1">
+      <Pack Name="Border">
+        <Comment><![CDATA[Edge cards]]></Comment>
+        <Size>1</Size>
+        <Cards>1</Cards>
+      </Pack>
+    </Packs>
+    <Picks Count="2">
+      <Pick Index="0">
+        <Actions Count="2">
+          <Action Type="Turn" Target="Card" TargetID="1" Dir="F" Dist="1" />
+          <Action Type="Turn" Target="Card" TargetID="2" Dir="B" Dist="1" />
+        </Actions>
+      </Pick>
+      <Pick Index="1">
+        <Actions Count="3">
+          <Action Type="Twist" Target="Card" TargetID="1" Dir="I" Dist="1" />
+          <Action Type="Turn" Target="Card" TargetID="1" Dir="F" Dist="1" />
+          <Action Type="Turn" Target="Card" TargetID="2" Dir="I" Dist="1" />
+        </Actions>
+      </Pick>
+    </Picks>
+    <Palette Name="Default" Size="2">
+      <Colour Index="1">255</Colour>
+      <Colour Index="2">16711680</Colour>
+    </Palette>
+  </Pattern>
+</TWData>
